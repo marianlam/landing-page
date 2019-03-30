@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Landing Page</title>
+        <link href="./index.css" rel="stylesheet"/>
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">       
+    </head>
+    <body>
+        <!-- NAVIGATION BAR -->
+        <nav>
+            <a href="./index.html">
+                <h1 id="page-title">
+                    <span id="page-title-top-line">fav<span id="page-title-o">o</span>rite</span><br>
+                    <span id="page-title-bottom-line">features</span>
+                </h1>
+            </a>
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="#">films</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">reviews</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">social</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">videos</a></li>
+            </ul>
+            <div id="search-bar">
+                <i id="search-icon" class="fa fa-search"></i>
+                <input id="search-input" type="text" maxlength="100" size="30" placeholder="Search Reviews"/>
+            </div>
+            <div id="hamburger-menu">
+                <div id="bar-1"></div>
+                <div id="bar-2"></div>
+                <div id="bar-3"></div>
+            </div>
+        </nav>
+        <!-- LATEST MOVIE REVIEWS -->
+        <div class="grid-container" id="latest-movie-reviews">
+            <!-- Movie Review #1 -->
+            <div class="grid-item"  id="preview-card-1">
+                <img id="preview-img-1" src="./assets/scene-2013-her.jpg"/>
+                <h2><em>Her (2013): </em>Falling in Love with My OS</h2>
+                <button id="btn-call-to-action">read review <span class="expand-arrow">&rsaquo;</span></button>
+            </div>
+            <div class="grid-item" id="small-preview-cards-container">
+                <!-- Movie Review #2 -->
+                <div class="small-preview-card" id="preview-card-2">
+                    <img class="small-card-img" id="preview-img-2" src="./assets/scene-2018-bohemian-rhapsody.jpg"/>
+                    <a href="#" class="latest-review-link">
+                        <h2 class="small-img-caption"><em>Bohemian Rhapsody: </em>New Review</h2>
+                    </a>
+                </div>
+                <!-- Movie Review #3 -->
+                <div class="small-preview-card" id="preview-card-3">
+                    <img class="small-card-img" id="preview-img-3" src="./assets/scene-2018-a-star-is-born.jpg"/>
+                    <a href="#" class="latest-review-link">
+                        <h2 class="small-img-caption"><em>A Star is Born: </em>New Review</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- RECOMMENDED TITLES -->
+        <div class="container" id="recommended-titles-container">
+            <div class="linked-header">
+                <span class="header">recommended </span>
+                <span><a class="link" href="#">/ trailers</a></span>
+                <span>
+                    <a id="link-all-videos" href="#">all videos 
+                        <span class="expand-arrow">&rsaquo;</span>
+                    </a>
+                </span>
+            </div>
+            <ol id="list-recommended-titles">
+                <li class="recommended-titles">
+                    <iframe width="370" height="200" src="https://www.youtube.com/embed/9382rwoMiRc" frameborder="0"></iframe>
+                    <h3>Official Trailer: <em>Shoplifters (2018)</em></h3>
+                    <caption><em class="synopsis">On the margins of Tokyo, a dysfunctional band of outsiders is united by 
+                                                  fierce loyalty and a penchant for petty theft...</em></caption>
+                </li>
+                <li class="recommended-titles">
+                    <iframe width="370" height="200" src="https://www.youtube.com/embed/Z9AYPxH5NTM" frameborder="0"></iframe>
+                    <h3>Official Trailer: <em>Call Me By Your Name (2017)</em></h3>
+                    <caption><em class="synopsis">It's the summer of 1983, and precocious 17-year-old Elio Perlman is spending 
+                                                  the days with his family at their 17th-century villa in Lombardy, Italy...</em></caption>
+                </li>
+                <li class="recommended-titles">
+                    <iframe width="370" height="200" src="https://www.youtube.com/embed/xlnPHQ3TLX8" frameborder="0"></iframe>
+                    <h3>Official Trailer: <em>Coco (2017)</em></h3>
+                    <caption><em class="synopsis">Despite his family's generations-old ban on music, young Miguel dreams of becoming 
+                                                  an accomplished musician like his idol Ernesto de la Cruz....</em></caption>     
+                </li>
+                <li class="recommended-titles">
+                    <iframe width="370" height="200" src="https://www.youtube.com/embed/RK8xHq6dfAo" frameborder="0"></iframe>
+                    <h3>Official Trailer: <em>Hidden Figures (2016)</em></h3>
+                    <caption><em class="synopsis">Three brilliant African-American women at NASA serve as the brains behind one of the 
+                                                  greatest operations in history: the launch of astronaut John Glenn into orbit...</em></caption> 
+                </li>
+                <li class="recommended-titles">
+                    <iframe width="370" height="200" src="https://www.youtube.com/embed/whldChqCsYk" frameborder="0"></iframe>
+                    <h3>Official Trailer: <em>The Handmaiden (2016)</em></h3>
+                    <caption><em class="synopsis">With help from an orphaned pickpocket, a Korean con man devises an elaborate plot to 
+                                                  seduce and bilk a Japanese woman out of her inheritance...</em></caption> 
+                </li>
+            </ol>
+        </div>
+        <div id="rainbow-line"></div>
+        <!-- FEATURED REVIEWS -->
+        <div class="container" id="featured-reviews">
+            <div class="linked-header">
+                <span class="header">featured reviews </span>
+                <span><a class="link" href="#">/ what's popular</a></span>
+            </div>
+            <ol id="list-featured-reviews">
+                <li class="featured-review-items">
+                    <img class="movie-poster" src="./assets/poster-2005-pride-and-prejudice.jpg"/>
+                    <h3>Pride &amp; Prejudice (2005)</h3>
+                    <caption><em>Romance,  bonnets, fripperies &amp; fobs</em></caption><br>
+                    <button class="btn-read-review">read review</button>
+                </li>
+                <li class="featured-review-items">
+                    <img class="movie-poster" src="./assets/poster-2007-ratatouille.jpg"/>
+                    <h3>Ratatouille (2007)</h3>
+                    <caption><em>Anyone can cook, even rats</em></caption><br>
+                    <button class="btn-read-review">read review</button>
+                </li>
+                <li class="featured-review-items">
+                    <img class="movie-poster" src="./assets/poster-2008-iron-man.jpg"/>
+                    <h3>Iron Man (2008)</h3>
+                    <caption><em>Robert Downey Jr.'s comeback movie</em></caption><br>
+                    <button class="btn-read-review">read review</button>
+                </li>
+                <li class="featured-review-items">
+                    <img class="movie-poster" src="./assets/poster-2011-drive.jpg"/>
+                    <h3>Drive (2011)</h3>
+                    <caption><em>Cool guy with scorpian jacket</em></caption><br>
+                    <button class="btn-read-review">read review</button>
+                </li>
+                <li class="featured-review-items">
+                   <img class="movie-poster" src="./assets/poster-2013-her.jpg"/> 
+                   <h3>Her (2013)</h3>
+                   <caption><em>He just really loves his OS</em></caption><br>
+                   <button class="btn-read-review">read review</button>
+                </li>
+                <li class="featured-review-items">
+                    <img class="movie-poster" src="./assets/poster-2018-a-star-is-born.jpg"/>
+                    <h3>A Star is Born (2018)</h3>
+                    <caption><em>Alternate universe Lady Gaga</em></caption><br>
+                    <button class="btn-read-review">read review</button>
+                </li>
+                <li class="featured-review-items">
+                    <img class="movie-poster" src="./assets/poster-2018-bohemian-rhapsody.jpg"/> 
+                    <h3>Bohemian Rhapsody (2018)</h3>
+                    <caption><em>Entertaining but factually inaccurate?</em></caption><br>
+                    <button class="btn-read-review">read review</button>
+                </li>
+            </ol>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <div id="footer-grid">
+                <div class="container" id="footer-left">
+                    <p>connect with us on social media</p>
+                    <ul id="social-links">
+                        <li class="social-icon"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                        <li class="social-icon"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-icon"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                        <li class="social-icon"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="container" id="footer-right">
+                    <p>sign up for new reviews</p>
+                    <a href="#"><button id="btn-sign-up">sign up</button></a>
+                </div>
+            </div>
+            <div id="footer-bottom">
+                <small>
+                    &copy; 2019 Favorite Features. A Fictional Company. 
+                    <a class="footer-link" href="#">Private Policy</a> |
+                    <a class="footer-link" href="#">Terms of Use</a> |
+                    <a class="footer-link" href="https://www.mpaa.org/" style="text-transform: lowercase">mpaa.org</a> |
+                    <a class="footer-link" href="https://filmratings.com/" style="text-transform: lowercase">filmratings.com</a>
+                </small>
+            </div>
+        </footer>
+        <div id="footer-gutter"></div>
+    </body>
+</html>
