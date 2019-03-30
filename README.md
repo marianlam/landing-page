@@ -1,4 +1,4 @@
-# landing-page
+# Landing Page
 Landing page featuring my favorite films.
 
 ## Desktop Screenshot
